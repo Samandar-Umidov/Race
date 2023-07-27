@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.race {
+  padding-top: 100px;
+  text-align: center;
+}
+.race__title {
+  font-size: 43px;
+}
+.race__form {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.race__input {
+  height: 25px;
+  margin-right: 40px;
+}
+.race__list {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  list-style: none;
+}
+.race__item {
+  width: 150px;
+  margin-right: 40px;
+  list-style: none;
+  padding: 15px;
+  border: 1px solid rgb(110, 103, 103);
+  border-radius: 10px;
+}
+.race__item:last-child {
+  margin-right: 0
+}
+.race__subtitle {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ .text {
+  margin-right: 40px;
+ }
+
+.race__item:nth-child(1) .race__subtitle::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  background-image: url(/images/boy.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.race__item:nth-child(2) .race__subtitle::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  background-image: url(/images/bike.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.race__item:nth-child(3) .race__subtitle::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  background-image: url(/images/car.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.race__item:nth-child(4) .race__subtitle::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  background-image: url(/images/plane.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
